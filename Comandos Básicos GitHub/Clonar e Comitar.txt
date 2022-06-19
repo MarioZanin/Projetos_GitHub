@@ -1,0 +1,36 @@
+CLONANDO E COMITANDO NO GITHUB COM O WINDOWS:
+
+Criar o repositório no GitHub, escolhendo o nome de sua preferência;
+Optar por colocar o arquivo como publico ou privado;
+Criar o README com as informações básicas do projeto a ser criado, inclusive, se desejar, incluir links
+Ir até o repositório criado e ver a forma que deseja trabalhar (HTTPS; SSH ou CitHubCLI) -
+no presente caso será usado o HTTPS - copiar o code para trabalhar no GitBash;
+Criar o Diertório local onde  você deseja trabaçhar (HD, PENDRIVE e etc);
+Ir até o diretório local e iniciar executando o terminal com o comando (GIT BASH HERE);
+Após executar o comando irá aparecer o promp de comando sendo executado no diretório selecionado;
+
+(CLONANDO)
+No treminal do GITBASH
+Digitar o comando (git clone e acrescentar o link copiado no GitHub) e executar;
+Após o termino da clanagem, digitar o comando (dir), deverá aparecer todos os arquivos copiados para a pasta local;
+Ir para a pasta criada digitando o comando (cd acrescido do diretório criado);
+Neste momento irá aparecer a alteração do local de trabalho, deverá aparecer o nome do diretório seguido de (MAIN),
+Digite o comando (git status) para verificar as condições dos arquivos na pasta local - não deverá aparecer nada a ser comitado;
+
+(ALTERANDO OU CRIANDO ARQUIVOS)
+Podem ser feitas alterações utilizando desde os comandos no Bloco de Notas do Windows, para o README como na prórpia estrutura de 
+eventuais projetos e programas através de ferramentas próprias.
+Após as aletrações, para verificar a efetiva existência de modificações, digite, novamente, o comando (git status) deverá aparecer, 
+ao final e em destaque, os arquivos modificados e craidos.
+
+(COMITANDO) 
+Antes de realizar o commit é necessário deixar os arquivos prontos, então deve ser digitado o comando (git add .) ou o comando (git add -A);
+Realizado este comando, digite o comando (git status - (novamente)), somente para verificar se tudo ocorreu corretamente, os destaques desaparecerão
+então os arquivos estarão prontos para serem comitados;
+Após basta digitar o comando (git commit -m "mensagem" (inportante colocar uma mensagem neste comando para que se possa identificar o que foi feito))
+pode ser verificado pelo comando (git status), se os arquivos já estão prontos para comitar
+Para finalizar deve ser digitado o comando (git push origin main) que permitirá finalizar o comite e fazer as alterações no repositório do GitHub;
+Para verificar se tudo corru corretamente, ir até o GITHUB e atualizar a página do repositório (F5 - exemplo) e verificar se tudo está lançado corretamente.
+
+
+    
